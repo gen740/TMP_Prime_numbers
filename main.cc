@@ -69,7 +69,7 @@ struct prime_numbers<2> {
 };
 
 int main() {
-  static constexpr int N = 2000;
+  static constexpr int N = 1000;
   print_index_sequence<prime_numbers<N>::type>::print();
   return 0;
 }
